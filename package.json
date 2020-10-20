@@ -9,12 +9,6 @@
     "lint": "eslint .",
     "lintfix": "eslint . --fix"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint && npm run build",
-      "pre-push": "npm run lint"
-    }
-  },
   "dependencies": {
     "@hapi/boom": "9.x.x",
     "@hapi/joi": "17.x.x",
