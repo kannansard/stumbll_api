@@ -16,7 +16,7 @@ CREATE TABLE `identify_yourself` (
   `name` varchar(512) DEFAULT NULL,
   PRIMARY KEY (`identify_yourself_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
+/*!40101 SET character_set_client = @saved_cs_client */
 
 --
 -- Table structure for table `interest`
