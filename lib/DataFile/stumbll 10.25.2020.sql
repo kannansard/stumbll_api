@@ -5,7 +5,7 @@ CREATE TABLE `login_with_info` (
   `loginWithId` TINYINT NOT NULL,
   'user_id' INT NULL,
   `accessToken` VARCHAR(10000) NULL,
-  `loginWithUserId` VARCHAR(1000)  NULL,
+  `loginWithUserId` VARCHAR(100)  NULL,
   `email` VARCHAR(100) NULL,
   `name` VARCHAR(256) NULL,
   `photoUrl` VARCHAR(1000) NULL,
