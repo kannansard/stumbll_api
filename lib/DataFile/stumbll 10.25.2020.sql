@@ -3,7 +3,7 @@ USE `stumbll`;
 CREATE TABLE `login_with_info` (
   `login_with_info_Id` INT NOT NULL AUTO_INCREMENT,
   `loginWithId` TINYINT NOT NULL,
-  'user_id' INT NULL,
+  `userId` INT NULL,
   `accessToken` VARCHAR(10000) NULL,
   `loginWithUserId` VARCHAR(100)  NULL,
   `email` VARCHAR(100) NULL,
